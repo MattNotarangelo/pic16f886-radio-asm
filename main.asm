@@ -3,7 +3,7 @@
 list    p=16f886	; list directive to define processor (PIC16F886)
 #include	<p16f886.inc>	;processor specific variable definitions
 
-;Define port names to make them easier to use and read from LED 8 segment display
+;Define port names to make them easier to use and read from LCD 16x01 segment display
 #define	COL0	PORTA, 0
 #define	COL1	PORTA, 1	
 #define	COL2	PORTA, 2	
